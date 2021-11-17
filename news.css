@@ -1,0 +1,29 @@
+form {
+    width: 500px;
+    margin: 10px auto;
+}
+
+.search {
+    padding: 9px 25px;
+    background: rgba(0, 0, 0, 0.2);
+    border: 0px solid #5900ff;
+}
+
+.button {
+    position: relative;
+    padding: 8px 15px;
+    left: -8px;
+    border: 2px solid #2a1cf5;
+    background-color: #003cfff8;
+    color: #ffffff;
+}
+
+    .button:hover {
+        background-color: #fafafa;
+        color: #0011ff;
+    }
+    h1 {
+        text-shadow: 3px 2px 1px grey;
+        font-size: 40px;
+    }
+    

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lag="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device=width,intial scale=1.0">
+    <title>Doni Wahyu Saputra Personal Website </title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="aboute.css">
+    <form>
+        <input class="search" type="text" placeholder="Cari..." required>	
+        <input class="button" type="button" value="Cari">	
+    </form>	
+</head>
+<body  style="background-image:url(background.jpg) ;">
+    <nav>
+        <a style="color: black;" href="index.html"><img src="home.png" width="40" height="40"  /></a> 
+        <a style="color: black;" href="cv-name.pdf"><img src="download.png" width="40" height="40"  /></a> 
+        <a style="color: black;" href="about.html"><img src= "aboutme.png" width="40" height="40"/></a> 
+        <a style="color: black;" href="contact.html"><img src="contact.png" width="40" height="40"/></a> 
+        <a style="color: black;" href="news.html"><img src="news.png"  width="40" height="40"/></a> 
+    </nav>
+
+    <hr>
+
+    <ariticle>
+        <h1 ><i>Aboute me</i></h1>
+        <p>
+            Hai!,Saya adalah seorang programer yang sedang belajar.
+            Saya tinggal di jakarta selatan.
+        </p>
+        <p>
+            Kenapa saya menjadi prgramer? 
+            Karena Saya ingin menjadi pembuat web,software dan lain lainnya,dan karena gaji yang ditawarkan untuk menjadi programer sangat besar
+            Profesi jarang sekali yang menganggur,Karena di zaman informasi ini kita membutuhkan seorang prgramer untuk membuat website,aplikasi dan lain lain.
+        </p>
+        <p>Saya ingin menguasai C++,Python,C#,HTML,CSS,dan Java Script</p>
+        <p><i>Saya sedang belajar c++ dan HTML</i></p>
+        <p>Okay untuk lebih jelasnya liat vidio dibawah ini: </p>
+        <p>    
+            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/V37Q3l6AFAU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </p>
+    </ariticle>
+    <div style="max-width: 400px; margin: 2em auto">
+        <table border="1" width="100%">
+            <thead>
+                <tr>
+                    <th>Skill</th>
+                    <th>Status</th>
+                    <th>Sekolah</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS </li>
+                            <li>Javascript</li>
+                            <li>C++</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Beginer</li>
+                            <li>Masih belajar</li>
+                            <li>Masih belajar</li>
+                            <li>Beginer</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>SDN 13 JAKSEL</li>
+                            <li>SMPN 185 JAKSEL</li>
+                            <li>SMK TRI ARGA BONJER (TKJ)</li>
+                            <li>University?-</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+
+    <script>
+        // fungsi initialize untuk mempersiapkan peta
+        function initialize() {
+        var propertiPeta = {
+            center:new google.maps.LatLng(-6.212916,106.784802),
+            zoom:0,
+            mapTypeId:google.maps.MapTypeId.ROADMAP
+        };
+        
+        var peta = new google.maps.Map(document.getElementById("googleMap"), propertiPeta);
+        }
+
+        // event jendela di-load  
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+     <div id="googleMap" style="width:100%;height:240px;"></div>
+    <hr>
+    <footer style="text-align: right;">
+        <p>Copyright &copy; 2021 Doni Wahyu Saputra.</p>
+    </footer>
+</body>
+</html>

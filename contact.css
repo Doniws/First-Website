@@ -1,0 +1,48 @@
+form {
+    width: 500px;
+    margin: 10px auto;
+}
+
+.search {
+    padding: 9px 15px;
+    background: rgba(50, 50, 50, 0.2);
+    border: 0px solid #dbdbdb;
+}
+
+.button {
+    position: relative;
+    padding: 6px 15px;
+    left: -8px;
+    border: 2px solid #2a1cf5;
+    background-color: #113ac2f8;
+    color: #fafafa;
+}
+
+    .button:hover {
+        background-color: #fafafa;
+        color: #207cca;
+    }
+
+.submit{
+
+    position: relative;
+    padding: 6px 15px;
+    left: -8px;
+    border: 2px solid #2a1cf5;
+    background-color: #113ac2f8;
+    color: #fafafa;
+}
+.email{
+    background-color: #00ff4c;
+    background: rgba(50, 50, 50, 0.2);
+    border: 0px solid #dbdbdb;
+}
+.massage{
+    background-color: greenyellow;
+    background: rgba(50, 50, 50, 0.2);
+    border: 0px solid #dbdbdb;
+}
+h1 {
+    text-shadow: 3px 2px 1px grey;
+    font-size: 40px;
+}
